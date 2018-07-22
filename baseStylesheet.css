@@ -1,0 +1,77 @@
+html, body, .container-fluid, .row {height: 100%;}
+
+.welcome {
+    height: 100vh;
+    background-color: #fff7e7;
+}
+
+.welcome-header {
+    background-color: #9900FF !important;
+    color: #FEF1D8;
+}
+
+.imgMe {
+    max-height: 200px;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+    margin-top: 2%;
+}
+
+.header-text {
+    text-align: center;
+    display: block;
+}
+
+.btn-header {
+    background-color: #9900FF;
+    border-width: 2px;
+    border-color: #FEF1D8;
+    margin-bottom: 10%;
+}
+
+.bottom-text-welcome {
+    text-align: center;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.about {
+    height: 75vh;
+    background-color: #f39c12 ;
+}
+.about-header {
+    background-color: #f39c12 !important;
+    color: black;
+}
+
+.padded-text-about {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    color: #fff7e7;
+}
+
+.about-bottom {
+    background-color:  #09b252;
+    height: 25vh;
+    text-align: center;
+}
+
+.svg-colour {
+    fill: #FEF1D8
+}
+
+.bottom-text h1 {
+    font-size: 4em;
+    margin-bottom: 10%;
+}
+.about-bottom h1 {
+    font-size: 4em;
+    margin-bottom: 2%;
+}
+.saved {
+    background-color: #FEF1D8;
+}
