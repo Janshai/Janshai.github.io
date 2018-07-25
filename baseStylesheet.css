@@ -74,11 +74,12 @@ html, body, .container-fluid, .row {min-height: 100%;}
 
 .experience {
     min-height: 80vh;
-    background-color: #33CC33 ;
+    background-color: #66FF33;
 }
 
 .experienceCard {
     margin: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
     padding: 15px;
 }
 
