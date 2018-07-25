@@ -47,8 +47,8 @@ html, body, .container-fluid, .row {min-height: 100%;}
 .about-header {
     background-color: #f39c12 !important;
     color: #fff7e7;
-    min-height: 20vh;
-    max-height: 25vh;
+    min-height: 15vh;
+    max-height: 20vh;
 }
 
 .left hr {
@@ -58,8 +58,8 @@ html, body, .container-fluid, .row {min-height: 100%;}
 }
 
 .padded-text-about {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 6%;
+    padding-right: 2%;
     padding-bottom: 10%;
     text-align: center;
     color: #fff7e7;
@@ -73,13 +73,12 @@ html, body, .container-fluid, .row {min-height: 100%;}
 }
 
 .experience {
-    min-height: 80vh;
-    background-color: #66FF33;
+    min-height: 75vh;
+    background-color: #33CC33;
 }
 
 .experienceCard {
-    margin: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+    margin-left: 25px;
     padding: 15px;
 }
 
