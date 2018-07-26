@@ -2,13 +2,15 @@ html, body, .container-fluid, .row {min-height: 100%;}
 
 
 .welcome {
-    height: 100vh;
+    min-height: 20vh;
+    max-height: 25vh;
     background-color: #fff7e7;
 }
 
 .welcome-header {
     background-color: #9900FF !important;
     color: #FEF1D8;
+    min-height: 80vh;
 }
 
 .imgMe {
@@ -33,10 +35,6 @@ html, body, .container-fluid, .row {min-height: 100%;}
 
 .bottom-text-welcome {
     text-align: center;
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
 }
 
 .about {
@@ -73,18 +71,10 @@ html, body, .container-fluid, .row {min-height: 100%;}
 }
 
 .experience {
-    min-height: 75vh;
+    min-height: 80vh;
     background-color: #33CC33;
 }
 
-.experienceCard {
-    margin-left: 25px;
-    padding: 15px;
-}
-
-.role {
-    height: 25vh;
-}
 
 .projects-header {
     background-color: #9900FF !important;
@@ -108,7 +98,6 @@ html, body, .container-fluid, .row {min-height: 100%;}
 
 .bottom-text h1 {
     font-size: 4em;
-    margin-bottom: 10%;
 }
 .about-bottom h1 {
     font-size: 4em;
