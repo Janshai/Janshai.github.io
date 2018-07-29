@@ -1,29 +1,32 @@
-html, body, .container-fluid, .row {min-height: 100%;}
-
-
-.welcome {
-    min-height: 20vh;
-    max-height: 25vh;
-    background-color: #fff7e7;
-}
+html, body, .container-fluid, .row {}
 
 .welcome-header {
     background-color: #9900FF !important;
     color: #FEF1D8;
-    min-height: 80vh;
+    padding: 30px;
 }
 
 .imgMe {
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 250px;
+    max-width: 250px;
     height: auto;
     width: auto;
-    margin-top: 2%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .header-text {
     text-align: center;
     display: block;
+
+}
+.header-text h1 {
+    margin: 10px;
+    font-size: 4em;
+}
+.header-text p {
+    font-size: 1.4em;
+    margin: 10px;
 }
 
 .btn-header {
@@ -35,44 +38,74 @@ html, body, .container-fluid, .row {min-height: 100%;}
 
 .bottom-text-welcome {
     text-align: center;
+    background-color: #fff7e7;
+}
+
+.bottom-text-welcome h1 {
+    font-size: 3em;
 }
 
 .about {
-    min-height: 80vh;
-    max-height: 200vh;
     background-color: #f39c12 ;
 }
-.about-header {
-    background-color: #f39c12 !important;
+ .about-header {
+    background-color: #f39c12;
     color: #fff7e7;
-    min-height: 15vh;
-    max-height: 20vh;
+
+}
+#about-header-text {
+    text-align: center;
+    font-size: 3.5em;
+    margin: 40px;
 }
 
+.left {
+    background: #FEF1D8;
+    color: #f39c12;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
 .left hr {
     color: #f39c12;
     border-color: #f39c12;
     background-color: #f39c12;
 }
 
+.left h5 {
+    padding-right: 10px;
+}
+
 .padded-text-about {
-    padding-left: 6%;
-    padding-right: 2%;
-    padding-bottom: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
     text-align: center;
     color: #fff7e7;
 }
 
 .experience-header {
-    background-color: #66FF33 !important;
+    background-color: #33CC33;
     color: #fff7e7 ;
-    padding-bottom: 1%;
-    height: 20vh;
+
+}
+
+#experience-header-text {
+    text-align: center;
+    font-size: 4em;
+    margin: 40px;
+}
+@media screen and (max-width: 350px) {
+  #experience-header-text {
+    font-size: 3em;
+  }
 }
 
 .experience {
-    min-height: 80vh;
     background-color: #33CC33;
+    padding-bottom: 40px;
 }
 
 
@@ -80,15 +113,15 @@ html, body, .container-fluid, .row {min-height: 100%;}
     background-color: #9900FF !important;
     color: #fff7e7;
     padding-bottom: 1%;
-    height: 20vh;
+
 }
 .projects {
-    height: 70vh;
+
     background-color: #9900FF ;
 }
 .about-bottom {
     background-color: #fff7e7;
-    height: 10vh;
+
     text-align: center;
 }
 
@@ -96,17 +129,7 @@ html, body, .container-fluid, .row {min-height: 100%;}
     fill: #FEF1D8
 }
 
-.bottom-text h1 {
-    font-size: 4em;
-}
 .about-bottom h1 {
     font-size: 4em;
     margin-bottom: 2%;
-}
-.vl {
-    border-right: 6px solid green;
-    height: 100%;
-}
-.saved {
-    background-color: #FEF1D8;
 }
